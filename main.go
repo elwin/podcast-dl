@@ -138,6 +138,7 @@ func run(url string) error {
 
 	limit := limiter.NewConcurrencyLimiter(concurrency)
 	for _, item := range rss.Channel.Item {
+		item := item
 		limit.Execute(func() {
 			if err := download(item, client); err != nil {
 				log.Fatal(err)
