@@ -43,3 +43,8 @@ brews:
     url_template: "https://github.com/elwin/podcast-dl/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
     homepage: "https://github.com/elwin/podcast-tl"
     description: "Download videos from RSS video podcasts"
+snapcrafts:
+  -
+    summary: podcast-dl
+    description: "Download videos from RSS video podcasts"
+    publish: true
