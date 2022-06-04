@@ -11,6 +11,11 @@ using [Apple's podcast RSS feed](https://podcasters.apple.com/support/823-podcas
 brew install elwin/tools/podcast-dl
 ```
 
+### Snap
+```bash
+snap install podcast-dl
+```
+
 ### Go
 
 ```bash
